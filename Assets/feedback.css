@@ -1,0 +1,82 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Open+Sans:wght@300&family=Outfit:wght@600&family=Poppins:wght@400;600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Open+Sans:wght@300&family=Outfit:wght@200;600&family=Poppins:wght@400;600&display=swap");
+
+body {
+  background-image: url("./bg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+}
+
+#first-image {
+  width: 150px;
+  margin-left: 8rem;
+  padding-top: 3rem;
+}
+
+#main-container {
+  text-align: center;
+  margin-top: 5rem;
+  color: white;
+  font-family: "outfit", sans-serif;
+}
+#title {
+  font-size: 50px;
+  margin-bottom: 15px;
+}
+
+#title2 {
+  font-weight: 200;
+  margin-top: 0;
+}
+
+#central-container a i {
+  margin: 0.2rem;
+  width: 3.2rem;
+  height: 3rem;
+  cursor: pointer;
+}
+.fas {
+  color: #090c27;
+  font-size: 2.5rem;
+}
+
+#title3 {
+  font-weight: 200;
+  margin-top: 4rem;
+}
+
+#final-container {
+  text-align: center;
+  height: 50px;
+  margin-top: 25px;
+}
+
+input {
+  padding: 10px;
+  background-color: transparent;
+  color: grey;
+  border: none;
+  outline: none;
+  border-bottom: 2px solid #d20094;
+  width: 45%;
+  font-size: large;
+}
+
+button {
+  background-color: #01ffff;
+  padding: 1rem 3rem;
+  font-size: larger;
+  font-weight: bold;
+  box-shadow: 0 0 25px #01ffff;
+  border-bottom: 3px;
+  font-family: "outfit", "sans-serif";
+  margin-top: 30px;
+  cursor: pointer;
+  font-weight: 600;
+}
+
+
+.clicked {
+  color: #01ffff;
+}

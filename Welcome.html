@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./Assets/Style/WELCOME-PAGE.css" />
+    <title>Epicode Test</title>
+  </head>
+  <body>
+    <header>
+      <img
+        class="logo"
+        src="./Assets/Img/epicode_logo.png"
+        alt="EPICODE's LOGO"
+      />
+    </header>
+    <main>
+      <section>
+        <div>
+          <h1>Welcome to</h1>
+          <div>
+            <p id="sub-h1"><strong>your exam</strong></p>
+          </div>
+        </div>
+
+        <div class="istructions"><h2>Instructions</h2></div>
+
+        <div>
+          <p class="paragrafo1">
+            We don't expect most engineers to know answers to all of these
+          </p>
+          <span>
+            <p class="paragrafo2">
+              questions, so don't worry if you're unsure of a few of them.
+            </p></span
+          >
+        </div>
+
+        <div id="lista">
+          <ul class="Ul">
+            <li>
+              Each question is <strong>timed</strong> and can only be
+              <strong>answered once</strong>.
+            </li>
+            <li>
+              Changing browser tab or opening other windows will
+              <strong>invalidate the question</strong>.
+            </li>
+            <li>This exam will take approx. <b>0-5 minutes</b>.</li>
+          </ul>
+        </div>
+
+        <div>
+          <input type="checkbox" id="checkBox" required />
+          <label
+            for="checkBox"
+            class="promise"
+            style="color: rgb(236, 237, 238)"
+            >I promise to answer myself without help from anyone</label
+          ><span> <input id="proceed" type="submit" value="PROCEED" /></span>
+        </div>
+      </section>
+    </main>
+    <script src="./Welcome.Js/Welcome.js"></script>
+  </body>
+</html>
